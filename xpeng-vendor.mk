@@ -38,8 +38,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xpeng/proprietary/vendor/etc/init/motorola.hardware.camera.imgtuner@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.camera.imgtuner@1.0-service.rc \
     vendor/motorola/xpeng/proprietary/vendor/etc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf \
     vendor/motorola/xpeng/proprietary/vendor/etc/libnfc-nci-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci-st.conf \
-    vendor/motorola/xpeng/proprietary/vendor/etc/pwr/PowerFeatureConfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/PowerFeatureConfig.xml \
-    vendor/motorola/xpeng/proprietary/vendor/etc/pwr/VideoPowerOptFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/VideoPowerOptFeature.xml \
     vendor/motorola/xpeng/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_dsc_678.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_dsc_678.xml \
     vendor/motorola/xpeng/proprietary/vendor/etc/qdcm_calib_data_nt36672e_60_Hz_fhd_plus_video_mode_panel_without_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt36672e_60_Hz_fhd_plus_video_mode_panel_without_DSC.xml \
     vendor/motorola/xpeng/proprietary/vendor/etc/qdcm_calib_data_nt36672e_fhd_plus_120Hz_Video_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt36672e_fhd_plus_120Hz_Video_panel.xml \
@@ -192,7 +190,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xpeng/proprietary/vendor/etc/st21nfc_conf_ss.txt:$(TARGET_COPY_OUT_VENDOR)/etc/st21nfc_conf_ss.txt \
     vendor/motorola/xpeng/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/motorola/xpeng/proprietary/vendor/etc/vhw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vhw.xml \
-    vendor/motorola/xpeng/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
     vendor/motorola/xpeng/proprietary/vendor/firmware/CAMERA_ICP_170.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_170.elf \
     vendor/motorola/xpeng/proprietary/vendor/firmware/NT36xxx_MP_Setting_Criteria_6044.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/NT36xxx_MP_Setting_Criteria_6044.csv \
     vendor/motorola/xpeng/proprietary/vendor/firmware/aw882xx_afe_params.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_afe_params.bin \
@@ -204,21 +201,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xpeng/proprietary/vendor/firmware/novatek_ts-NT36675-21101302-6044-xpeng.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts-NT36675-21101302-6044-xpeng.bin \
     vendor/motorola/xpeng/proprietary/vendor/firmware/st21nfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw.bin \
     vendor/motorola/xpeng/proprietary/vendor/firmware/st21nfc_fw7.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw7.bin \
-    vendor/motorola/xpeng/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_xpeng_hi1336_qtech.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_xpeng_hi1336_qtech.bin \
-    vendor/motorola/xpeng/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_xpeng_ov02b1b_sunwin.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_xpeng_ov02b1b_sunwin.bin \
-    vendor/motorola/xpeng/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_xpeng_ov16a1q_qtech.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_xpeng_ov16a1q_qtech.bin \
-    vendor/motorola/xpeng/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_xpeng_s5khm2_qtech.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_xpeng_s5khm2_qtech.bin \
-    vendor/motorola/xpeng/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_xpeng_s5khm2sd03_qtech.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_xpeng_s5khm2sd03_qtech.bin \
-    vendor/motorola/xpeng/proprietary/vendor/lib/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.default.bin \
-    vendor/motorola/xpeng/proprietary/vendor/lib/camera/com.qti.tuned.mot_xpeng_hi1336.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_xpeng_hi1336.bin \
-    vendor/motorola/xpeng/proprietary/vendor/lib/camera/com.qti.tuned.mot_xpeng_ov02b1b.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_xpeng_ov02b1b.bin \
-    vendor/motorola/xpeng/proprietary/vendor/lib/camera/com.qti.tuned.mot_xpeng_ov16a1q.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_xpeng_ov16a1q.bin \
-    vendor/motorola/xpeng/proprietary/vendor/lib/camera/com.qti.tuned.mot_xpeng_s5khm2.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_xpeng_s5khm2.bin \
-    vendor/motorola/xpeng/proprietary/vendor/lib/camera/com.qti.tuned.mot_xpeng_s5khm2sd03.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_xpeng_s5khm2sd03.bin \
-    vendor/motorola/xpeng/proprietary/vendor/lib/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigpreview.bin \
-    vendor/motorola/xpeng/proprietary/vendor/lib/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigpreviewlite.bin \
-    vendor/motorola/xpeng/proprietary/vendor/lib/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigvideo.bin \
-    vendor/motorola/xpeng/proprietary/vendor/lib/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigvideolite.bin \
     vendor/motorola/xpeng/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_xpeng_hi1336_qtech.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_xpeng_hi1336_qtech.bin \
     vendor/motorola/xpeng/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_xpeng_ov02b1b_sunwin.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_xpeng_ov02b1b_sunwin.bin \
     vendor/motorola/xpeng/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_xpeng_ov16a1q_qtech.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_xpeng_ov16a1q_qtech.bin \
@@ -236,6 +218,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xpeng/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin
 
 PRODUCT_PACKAGES += \
+    libacdbloader \
+    libcamxexternalformatutils \
     com.mot.eeprom.mot_gt24p64b_hi1336_eeprom \
     com.mot.eeprom.mot_gt24p64b_ov16a1q_eeprom \
     com.mot.eeprom.mot_gt24p64e_s5khm2_eeprom \
@@ -244,8 +228,7 @@ PRODUCT_PACKAGES += \
     com.qti.sensor.mot_ov02b1b \
     com.qti.sensor.mot_ov16a1q \
     com.qti.sensor.mot_s5khm2 \
-    com.arcsoft.node.capturebokeh \
-    com.arcsoft.node.realtimebokeh \
+    com.arcsoft.node.smooth_transition \
     com.mot.node.c2d \
     com.mot.node.dc_capture \
     com.mot.node.dc_preview \
@@ -302,6 +285,7 @@ PRODUCT_PACKAGES += \
     com.vidhance.node.ica \
     com.vidhance.node.processing \
     com.vidhance.stats.aec_dmbr \
+    libdepthmapwrapper_secure \
     com.qti.chiusecaseselector \
     com.qti.feature2.anchorsync \
     com.qti.feature2.demux \
@@ -342,13 +326,16 @@ PRODUCT_PACKAGES += \
     com.qualcomm.qti.mcx.usecase.extension \
     camera.qcom \
     com.qti.chi.override \
+    fingerprint.goodix.default \
     libFace3DTA \
     libFace3D_hlos \
     libQ6MSFR_manager_stub \
-    libacdbloader \
+    libRbsFlow \
     libaidenoiser \
     libaidenoiserv2 \
     libarcsoft_distortion_correction \
+    libarcsoft_dual_sat \
+    libarcsoft_dual_zoomtranslator \
     libarcsoft_dualcam_refocus_image \
     libarcsoft_dualcam_refocus_video \
     libarcsoft_portrait_distortion_correction \
@@ -357,7 +344,6 @@ PRODUCT_PACKAGES += \
     libc2d_helper \
     libcamera_nn_stub \
     libcamerapostproc \
-    libcamxexternalformatutils \
     libcamxfacialfeatures \
     libcamxfdalgo \
     libcamxfdengine \
@@ -370,8 +356,14 @@ PRODUCT_PACKAGES += \
     libcamxtintlessalgo \
     libchilog \
     libcom.qti.chinodeutils \
+    libdualcam_optical_zoom_control \
+    libdualcam_video_optical_zoom \
+    libets_teeclient_v2 \
     libface3d_dev \
     libfcell \
+    libgf_ca \
+    libgf_hal \
+    libgoodixhwfingerprint \
     libipebpsstriping \
     libipebpsstriping170 \
     libjpege \
@@ -388,6 +380,7 @@ PRODUCT_PACKAGES += \
     libmot_chi_desktop_helper \
     libmot_engine_settings \
     libmotext_inf \
+    libmotohid \
     libmpbase \
     libofflinedump \
     libofflinelog \
@@ -412,25 +405,11 @@ PRODUCT_PACKAGES += \
     libvidhance_zoom_stabilization \
     motorola.hardware.camera.desktop@1.0 \
     motorola.hardware.camera.desktop@2.0 \
-    vendor.qti.hardware.camera.postproc@1.0-service-impl \
-    libvideoutils \
-    com.arcsoft.node.smooth_transition \
-    libdepthmapwrapper_secure \
-    fingerprint.goodix.default \
-    libRbsFlow \
-    libarcsoft_dual_sat \
-    libarcsoft_dual_zoomtranslator \
-    libdualcam_optical_zoom_control \
-    libdualcam_video_optical_zoom \
-    libets_teeclient_v2 \
-    libgf_ca \
-    libgf_hal \
-    libgoodixhwfingerprint \
-    libmotohid \
     sensors.moto \
     sensors.ssc \
     vendor.egistec.hardware.fingerprint@4.0 \
     vendor.goodix.hardware.biometrics.fingerprint@3.0 \
+    vendor.qti.hardware.camera.postproc@1.0-service-impl \
     vendor.qti.hardware.fingerprint@1.0 \
     HotwordEnrollmentOKGoogleHEXAGON \
     HotwordEnrollmentXGoogleHEXAGON \
