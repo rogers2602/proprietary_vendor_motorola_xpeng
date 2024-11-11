@@ -379,8 +379,6 @@ PRODUCT_PACKAGES += \
     libmot_afd \
     libmot_chi_desktop_helper \
     libmot_engine_settings \
-    libmotext_inf \
-    libmotohid \
     libmpbase \
     libofflinedump \
     libofflinelog \
