@@ -371,6 +371,7 @@ PRODUCT_PACKAGES += \
     libchilog \
     libcom.qti.chinodeutils \
     libface3d_dev \
+    libfcell \
     libipebpsstriping \
     libipebpsstriping170 \
     libjpege \
