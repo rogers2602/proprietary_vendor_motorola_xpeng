@@ -385,14 +385,12 @@ PRODUCT_PACKAGES += \
     libopencv \
     libopestriping \
     libos \
-    libpowercore \
     libqll10 \
     libqllengine \
     libswregistrationalgo \
     libsynx \
     libtfestriping \
     libthreadutils \
-    libvideooptfeature \
     libvidhance \
     libvidhance_active_ois \
     libvidhance_dmbr \
