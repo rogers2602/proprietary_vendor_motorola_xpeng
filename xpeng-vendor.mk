@@ -229,6 +229,8 @@ PRODUCT_PACKAGES += \
     com.qti.sensor.mot_ov02b1b \
     com.qti.sensor.mot_ov16a1q \
     com.qti.sensor.mot_s5khm2 \
+    com.arcsoft.node.capturebokeh \
+    com.arcsoft.node.realtimebokeh \
     com.arcsoft.node.smooth_transition \
     com.mot.node.c2d \
     com.mot.node.dc_capture \
@@ -400,14 +402,17 @@ PRODUCT_PACKAGES += \
     libvidhance_horizon_correction \
     libvidhance_stabilizer \
     libvidhance_zoom_stabilization \
-    motorola.hardware.camera.desktop@1.0 \
-    motorola.hardware.camera.desktop@2.0 \
+    motorola.hardware.camera.desktop@1.0_vendor \
+    motorola.hardware.camera.desktop@2.0_vendor \
     sensors.moto \
     sensors.ssc \
     vendor.egistec.hardware.fingerprint@4.0 \
     vendor.goodix.hardware.biometrics.fingerprint@3.0 \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
     vendor.qti.hardware.fingerprint@1.0 \
+    libjni_helper.motocameradesktop \
+    motorola.hardware.camera.desktop@1.0 \
+    motorola.hardware.camera.desktop@2.0 \
     HotwordEnrollmentOKGoogleHEXAGON \
     HotwordEnrollmentXGoogleHEXAGON \
     com.android.hotwordenrollment.common.util \
