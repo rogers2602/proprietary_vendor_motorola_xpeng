@@ -7787,40 +7787,6 @@ dex_import {
 }
 
 cc_prebuilt_binary {
-    name: "STFlashTool",
-    owner: "motorola",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/STFlashTool",
-            ],
-            shared_libs: [
-                "libbase_shim",
-                "libcutils",
-                "libutils",
-                "liblog",
-                "libchrome",
-                "libbase",
-                "libhardware",
-                "libpower",
-                "libz",
-                "libhidlbase",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "android.hardware.biometrics.fingerprint@2.1-service-ets",
     owner: "motorola",
     target: {

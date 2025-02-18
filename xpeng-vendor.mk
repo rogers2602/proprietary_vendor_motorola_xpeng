@@ -3089,7 +3089,6 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleHEXAGON \
     HotwordEnrollmentXGoogleHEXAGON \
     com.android.hotwordenrollment.common.util \
-    STFlashTool \
     android.hardware.biometrics.fingerprint@2.1-service-ets \
     android.hardware.biometrics.fingerprint@2.1-service-fpc \
     egis_ident \
