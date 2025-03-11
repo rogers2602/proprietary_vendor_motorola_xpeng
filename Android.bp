@@ -5,6 +5,7 @@
 soong_namespace {
     imports: [
         "vendor/motorola/sm7325-common",
+        "hardware/motorola",
         "hardware/qcom-caf/sm8350",
         "hardware/qcom-caf/wlan",
         "vendor/qcom/opensource/commonsys-intf/display",
@@ -7444,6 +7445,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/sensors.moto.so",
             ],
             shared_libs: [
+                "libbase_shim",
                 "android.hardware.sensors@1.0",
                 "android.hardware.sensors@2.0",
                 "android.hardware.sensors@2.0-ScopedWakelock",
@@ -7793,6 +7795,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/STFlashTool",
             ],
             shared_libs: [
+                "libbase_shim",
                 "libcutils",
                 "libutils",
                 "liblog",
