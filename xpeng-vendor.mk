@@ -3090,9 +3090,9 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentXGoogleHEXAGON \
     com.android.hotwordenrollment.common.util \
     STFlashTool \
+    android.hardware.biometrics.fingerprint@2.1-service-ets \
+    android.hardware.biometrics.fingerprint@2.1-service-fpc \
     egis_ident \
     fpc_ident \
     goodix_ident \
-    android.hardware.biometrics.fingerprint@2.1-service-ets \
-    android.hardware.biometrics.fingerprint@2.1-service-fpc \
     motorola.hardware.camera.desktop@2.0-service
